@@ -1,0 +1,16 @@
+.header{
+    margin: auto;
+}
+
+.abv{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.reason {
+    display: inline-block;
+}
+
+.signature {
+    font-style: italic;
+}
