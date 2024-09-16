@@ -1,0 +1,29 @@
+.header{
+    margin: auto;
+}
+
+.abv{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.reason {
+    display: inline-block;
+}
+
+.abv .reason {
+    display: inline-block;
+}
+.signature {
+    font-style: italic;
+}
+
+.opener {
+    font-family: sans-serif;
+    color:blue;
+}
+
+.pic {
+    width: 15%;
+    height: 15%;
+}
