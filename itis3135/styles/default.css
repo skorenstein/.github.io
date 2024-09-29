@@ -103,3 +103,42 @@ tr:first-child, th:first-child, tr:last-child {
 tr:first-child {
     color:#0F1108
 }
+
+
+input {
+    margin: 5px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+label {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 5px;
+}
+
+.radio {
+    display: inline-flex;
+}
+
+.check{
+    display: inline-flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+select{
+    overflow: hidden;
+    display: block;
+    margin-bottom: 10px;
+}
+.button {
+    margin-bottom: 5px;
+    background-color: darkcyan;
+    color:pink;
+}

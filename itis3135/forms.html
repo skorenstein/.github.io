@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charsert="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stephen Korenstein's Sleek Koala  || ITIS3135 Activity 3 HTML Form</title>
+        <link rel="stylesheet" href="styles\default.css"> 
+    </head>
+    <div data-include="components/header.html"></div>
+    <body>
+        <main>
+            <h2>Activity #3 - HTML Form - Company</h2>
+            <form>
+                
+                <label> First and Last Name:</label>
+                <input type="text" required placeholder="John Doe">
+                
+                <label>Phone Number:</label> 
+                <input type="number" required size="10" placeholder="9199199191"> 
+                
+                <label>Email Address:</label>
+                <input type="email" required placeholder="johndoe@email.com">
+                
+                <label>Which Overwatch Role is Your Favorite</label>
+                
+                <input type="radio" id="Tank" name="role" value="Tank" class="radio">
+                <label for="Tank" class="radio">Tank</label>
+                
+                <input type="radio" id="Damage" name="role" value="Damage" class="radio">
+                <label for="Damage" class="radio">Damage</label>
+                
+                <input type="radio" id="Support" name="role" value="Support" class="radio">
+                <label for="Support" class="radio">Support</label>
+
+                <label>What Console Do You Play Overwatch On</label>
+                
+                <input type="checkbox" id="PC" name="pc" value="PC" class="check">
+                <label for="PC" class="check">PC</label>
+                
+                <input type="checkbox" id="Switch" name="switch" value="Switch" class="check">
+                <label for="Switch" class="check">Switch</label>
+
+                <input type="checkbox" id="Xbox" name="xbox" value="Xbox" class="check">
+                <label for="Xbox" class="check">Xbox</label>
+
+                <input type="checkbox" id="PlayStation" name="playstation" value="PlayStation" class="check">
+                <label for="PlayStation" class="check">PlayStation</label>
+
+                <label>Select Your Favorite Gamemode</label>
+                
+                <div class="container">
+                
+                <select name="mode" id="mode" class="mode">
+                    <option value="Control">Control</option>
+                    <option value="Hybrid">Hybrid</option>
+                    <option value="Escort">Escort</option>
+                    <option value="Flashpoint">Flashpoint</option>
+                    <option value="Push">Push</option>
+                    <option value="Clash">Clash</option>
+                </select>
+                
+                </div>
+
+                <input type="reset" class="button">
+                <input type ="submit" action="#" class="button">
+            </form>
+        </main>
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/include.js"></script>    
+    </body>
+    
+</html>
