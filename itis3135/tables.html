@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charsert="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stephen Korenstein's Sleek Koala  || Activity 2 HTML TABLES</title>
+        <link rel="stylesheet" href="styles\default.css"> 
+    </head>
+    <div data-include="components/header.html"></div>        
+    <body>
+
+        <main>
+            <h2>Activity #2 - HTML Tables - Company</h2>
+            <h3>My Tabular Data</h3>
+            <ol>
+                <li>James Whitaker james.whitaker@innovatek.com 15</li>
+                <li>Emily Carson emily.carson@bizwiz.net 8</li>
+                <li>Sarah Doyle sarah.doyle@techstreamsolutions.com 20</li>
+                <li>Michael Trent m.trent@productpioneers.com 5</li>
+                <li>Olivia Hayes olivia.hayes@visionairecorp.com 10</li>
+                <li>Jonathan Brooks jon.brooks@globaltechgroup.com 22</li>
+                <li>Rachel Morrison rachel.morrison@strategicdesigners.com 7</li>
+            </ol>
+            <h3>Employee Data in Simple Table</h3>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                </tr>
+                <tr>
+                    <td>James Whitaker</td>
+                    <td>james.whitaker@innovatek.com</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Emily Carso</td>
+                    <td>emily.carson@bizwiz.net</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Sarah Doyle</td>
+                    <td>sarah.doyle@techstreamsolutions.com</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Michael Trent</td>
+                    <td>m.trent@productpioneers.com</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Olivia Hayes</td>
+                    <td>olivia.hayes@visionairecorp.com</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Jonathan Brooks</td>
+                    <td>jon.brooks@globaltechgroup.com</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>Rachel Morrison</td>
+                    <td>rachel.morrison@strategicdesigners.com</td>
+                    <td>7</td>
+                </tr>
+            </table>
+        <figure>
+            <h3>Employee Data in Complex Table</h3>
+            <table class="complex">
+                <tr>
+                    <th>Department</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                    <th>Monthly Salary</th>
+                </tr>
+              
+                <tr>
+                    <td rowspan="3">Sales</td>
+                    <td>James Whitaker</td>
+                    <td>james.whitaker@innovatek.com</td>
+                    <td>15</td>
+                    <td>$3,500</td>
+                </tr>
+                <tr>
+                    <td>Emily Carso</td>
+                    <td>emily.carson@bizwiz.net</td>
+                    <td>8</td>
+                    <td>$4,800</td>
+                </tr>
+                <tr>
+                    <td>Sarah Doyle</td>
+                    <td>sarah.doyle@techstreamsolutions.com</td>
+                    <td>20</td>
+                    <td>$5,250</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Marketing</td>
+                    <td>Michael Trent</td>
+                    <td>m.trent@productpioneers.com</td>
+                    <td>5</td>
+                    <td>$6,000</td>
+                </tr>
+                <tr>
+                    <td>Olivia Hayes</td>
+                    <td>olivia.hayes@visionairecorp.com</td>
+                    <td>10</td>
+                    <td>$7,300</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Distribution</td>
+                    <td>Jonathan Brooks</td>
+                    <td>jon.brooks@globaltechgroup.com</td>
+                    <td>22</td>
+                    <td>$8,400</td>
+                </tr>
+                <tr>
+                    <td>Rachel Morrison</td>
+                    <td>rachel.morrison@strategicdesigners.com</td>
+                    <td>7</td>
+                    <td>$9,750</td>
+                </tr>
+                <tr>
+                    <th colspan="3">Total Years of Service</th>
+                    <th>87</th>
+                    <th>$45,000</th>
+                </tr>
+            </table>
+            <figcaption>Employess Information</figcaption>
+        </figure>
+        </main>
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/include.js"></script>   
+    </body>
+    
+    </html>

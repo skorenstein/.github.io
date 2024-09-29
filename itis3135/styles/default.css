@@ -1,13 +1,13 @@
 body {
-    background-color:darkslategrey;
+    background-color:#34495E;
     text-align: center;
-    color:forestgreen ;
+    color:#F4D03F ;
     font-family:monospace;
 }
 
 a{
-    color:cornsilk
-    tex
+    color:#112A46
+    
 }
 
 h3 {
@@ -15,15 +15,15 @@ h3 {
 }
 
 a:link {
-    color: black
+    color: #1ABC9C
 }
 
 a:visited {
-    color:white
+    color:#16A085
 }
 
 a:hover {
-    color:blueviolet
+    color:#76D7C4
 }
 nav {
     display: inline-block;
@@ -41,6 +41,7 @@ nav {
     text-decoration: underline;
     margin: 0;
     vertical-align: middle;
+    color: #1ABC9C;
 }
 
 .dropdown-content {
@@ -63,15 +64,42 @@ nav {
 }
   
 .dropdown-content a:hover {
-    background-color: blueviolet;
+    background-color: #34495E;
     color: white;
 }
 
+
 .dropbtn:hover {
-    color: lightcoral;
+    color: #76D7C4;
 }
   
 .dropdown:hover .dropdown-content {
-    background-color: #e6d7ff;
+    background-color: #34495E;
     display: block;
+}
+
+table, th, td {
+    border: 1px solid black;
+  
+}
+
+.complex {
+    width: 100%;
+}
+
+ tr:nth-child(even) {
+    background-color:#0075A2 ;
+}
+
+tr:nth-child(odd) {
+    background-color: #481620;
+}
+
+tr:first-child, th:first-child, tr:last-child {
+    background-color: transparent;
+    color: inherit;
+}
+
+tr:first-child {
+    color:#0F1108
 }
