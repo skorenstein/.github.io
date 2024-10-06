@@ -5,6 +5,12 @@ body {
     font-family:monospace;
 }
 
+main {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 a{
     color:#112A46
     
@@ -141,4 +147,16 @@ select{
     margin-bottom: 5px;
     background-color: darkcyan;
     color:pink;
+}
+
+@media screen and ( min-width: 601px ) and ( max-width: 980px )  {
+    #colorbox {
+        background-color:orange;
+    }
+}
+
+@media screen and ( min-width: 370px ) and ( max-width: 600px ) {
+    #colorbox {
+        background-color:red;
+    }
 }
