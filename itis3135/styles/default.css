@@ -160,3 +160,12 @@ select{
         background-color:red;
     }
 }
+
+img {
+    width: 15%;
+    height: 15%;
+}
+
+ul {
+    text-align: left;
+}
