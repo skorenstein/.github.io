@@ -169,3 +169,10 @@ img {
 ul {
     text-align: left;
 }
+
+.box {
+    border: solid #F4D03F 2px;
+    margin-bottom: 50px;
+    padding: 10px;
+    padding-top: 0;
+}
