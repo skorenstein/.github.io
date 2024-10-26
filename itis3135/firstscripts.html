@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stephen Korenstein's Sleek Koala  || ITIS3135 Introduction</title>
+        <link rel="stylesheet" href="styles\default.css"> 
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        
+</head>
+<body>
+    <header>
+        <div data-include="components\header.html"></div>
+        </header>
+    <main>
+    <h3 id="date">Date</h3>
+
+    <form onsubmit="responseText(event)">
+        <label for="name">Enter your name:</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="feeling">How are you feeling today:</label>
+        <br>
+        <input type="text" id="feeling" name="feeling" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <p id="response"></p>
+    <form onsubmit="polygon(event)">
+        <label for="number">Enter a number from 0-10:</label>
+        <br>
+        <input type="number" id="number" name="number" required>
+        <br>
+        <input type="submit" value = "Submit">
+    </form>
+    
+    <button type="button" onclick="namePicker(event)">Koala Name Picker</button>
+    <button type="button" onclick="typePicker(event)">Koala Type Picker</button>
+    <button type="button" onclick="bearPicker(event)">Bears that aren't Koalas</button>
+    <button type="button" onclick="mpicker(event)">A Marsupial that isnt a Koala</button>
+    
+</main>
+    <script src ="scripts/firstscripts.js"></script>
+</body>
+<footer>
+    <div data-include="components/footer.html"></div>
+            <script src="scripts/include.js"></script>
+</footer>
+</html>
