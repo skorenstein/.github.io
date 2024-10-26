@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stephen Korenstein's Sleek Koala  || ITIS3135 Home</title>
+        <link rel="stylesheet" href="styles\default.css"> 
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div data-include="components/header.html"></div>
+            </header>
+    <main>
+        <h2>It is time to Build Your Own Intro page, Please fill out the form below.</h2>
+
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Stephen Korenstein" required>
+            <br>
+            <label for="mascot">Mascot:</label>
+            <input type="text" id="name" placeholder="Koala" required>
+            <br>
+            <label for="image">Image:</label>
+            <input type="file" id="image" onchange="return fileValidation()" required>
+            <br>
+            <label for="caption">Image Caption:</label>
+            <input type="text" id="name" placeholder="Koala rolling down a hill" required>
+            <br>
+            <label for="personal">Personal Background:</label>
+            <input type="text" id="personal" placeholder="Grew up in NC and FL" required>
+            <br>
+            <label for="professional">Professional Background:</label>
+            <input type="text" id="professional" placeholder="Owner of SK Enterprises" required>
+            <br>
+            <label for="academic">Academic Background</label>
+            <input type="text" id="academic" placeholder="CS Major" required>
+            <br>
+            <label for="webdev">Background in Web Development</label>
+            <input type="text" id="webdev" placeholder="Created a Personal Website" required>
+            <br>
+            <label for="pc">Priamry Computer Platform</label>
+            <input type="text" id="pc" placeholder="Custom Built PC" required>
+            <br>
+            <div id="courses"></div>
+            <button id="add-course">Add courses you are taking</button>
+            <br>
+            <label for="funny">Funny thing?</label>
+            <input type="text" id="funny" placeholder="A Joke">
+            <br>
+            <label for="anything">Anything Else?</label>
+            <input type="text" id="anything" placeholder="IDK you tell me">
+            <br>
+            <label for="check">"I understand that what is on this page is not password protected and I will not put anything here that I don't want publicly available."</label>
+            <input type="checkbox" id="check" name="check" required>
+            <br>
+            <br>
+            <input type="submit" value="Submit" onclick="displayForm()">
+           
+        </form>
+    </main>
+    <script src="scripts/byo_intro.js"></script>
+    </body>
+
+
+
+
+    <footer>
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/include.js"></script>
+    </footer>   
+</html>

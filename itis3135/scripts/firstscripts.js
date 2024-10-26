@@ -43,20 +43,20 @@ function polygon(event) {
 function namePicker(event) {
     event.preventDefault();
     const koalaName = ["Ozzy", "Jeff", "Koa", "Blinky"];
-    alert(koalaName[Math.floor(Math.random() * 10)]);
+    alert(koalaName[Math.floor(Math.random() * 4)]);
 }
 function typePicker(event) {
     event.preventDefault();
     const koalaType = ["Brown Koala", "Gray Koala", "Gray-Brown Koala"];
-    alert(koalaType[Math.floor(Math.random() * 10)]);
+    alert(koalaType[Math.floor(Math.random() * 3)]);
 }
 function bearPicker(event) {
     event.preventDefault();
     const bearType = ["Brown Bear", "Polar Bear", "Black Bear", "Panda Bear"];
-    alert(bearType[Math.floor(Math.random() * 10)]);
+    alert(bearType[Math.floor(Math.random() * 4)]);
 }
 function mpicker(event) {
     event.preventDefault();
     const mType = ["Sugar Glider", "Opossums", "Wallaby", "Kangaroo"];
-    alert(mType[Math.floor(Math.random() * 10)]);
+    alert(mType[Math.floor(Math.random() * 4)]);
 }
