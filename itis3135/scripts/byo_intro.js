@@ -1,10 +1,10 @@
 const courses = document.getElementById("courses");
-const addCourseBtn = document.getElementById("add-course");
-const FormData = documtent.getElementById("form").innerHTML;
+const addCourseBtn = document.getElementById("add-course-btn");
+const formData = document.getElementById("form").innerHTML;
 
 function fileValidation() {
     var fileInput = document.getElementById("image");
-    var filePath = fileInput.ariaValueMax;
+    var filePath = fileInput.value;
     var allowedExtensions = /(\.jpg|\.png)$/i;
 
     if (!allowedExtensions.exec(filePath)) {
@@ -14,10 +14,12 @@ function fileValidation() {
     }
 }
 function addCourse() {
-    const courseEntry = createElement("div");
+    const courses = document.getElementById("courses");
+    const courseEntry = document.createElement("div");
     courseEntry.classList.add("course-entry");
-    courseEntry.innerHTML = `<input type="text" placeholder="Enter class name"
-    <button>Delete</button>
+    courseEntry.innerHTML = `
+        <input type="text" placeholder="Enter class name">
+        <button>Delete</button>
     `;
     const deleteBtn = courseEntry.querySelector("button");
     deleteBtn.addEventListener("click", function() {
@@ -49,11 +51,12 @@ function displayForm() {
     <p style = "font-style: italic; text-align: center; margin-left: auto; margin-right: auto">${caption}</p>
     <p>Personal Background: ${personalbackground}</p>
       <p>Academic Background: ${academicbackground}</p>
+      <p>Professional Background: ${professionalbackground}</p>
       <p>Background in Web Development: ${webdevbackground}</p>
-      <p>Primary Computer Platform: ${compplatform}</p>
+      <p>Primary Computer Platform: ${primaryplatform}</p>
       <p>Courses I'm Taking: ${courses}</p>
       <p>Funny Thing: ${funny}</p>
-      <p>Something Else: ${more}</p>
+      <p>Something Else: ${anything}</p>
       <input type="reset" value="Reset" onclick="resetForm()">
     `;
 }
