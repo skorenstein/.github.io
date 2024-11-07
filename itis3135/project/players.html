@@ -8,7 +8,10 @@
 </head>
 <body>
     <header>
+        <h1>Our Players</h1>
         <nav>
+            <a href="index.html">Home</a>
+            ||
             <a href="games.html">Games</a>
             ||
             <a href="teams.html">Our Teams</a>
@@ -18,8 +21,35 @@
             <a href="staff.html">Our Staff</a>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="ow-team" id="ow-team">
+            <h2>Team 1</h2>
+            <ul class="players">
+                <li class="player" data-bio="Player 1 is a top player in the esports world with multiple championships.">
+                    <span class="player-name">Player Name 1</span>
+                    <div class="socials">Social Media: <a href="#">Twitter</a>, <a href="#">Twitch</a></div>
+                </li>
+                <li class="player" data-bio="Player 2 is known for their strategic skills and quick reflexes.">
+                    <span class="player-name">Player Name 2</span>
+                    <div class="socials">Social Media: <a href="#">Twitter</a>, <a href="#">Twitch</a></div>
+                </li>
+                <li class="player" data-bio="Player 3 has been a pro player for over 5 years, known for excellent teamwork.">
+                    <span class="player-name">Player Name 3</span>
+                    <div class="socials">Social Media: <a href="#">Twitter</a>, <a href="#">Twitch</a></div>
+                </li>
+            </ul>
+        </section>
+        <div id="playerModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="playerName"></h2>
+                <p id="playerBio"></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <script src="scripts/project.js"></script>
+    </footer>
 </body>
 
 </html>

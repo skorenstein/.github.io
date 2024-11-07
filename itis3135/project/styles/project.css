@@ -117,3 +117,83 @@ a:hover {
 .main-team ul {
     margin-bottom: 20px;
 }
+.team {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team h2 {
+    font-size: 1.8em;
+    color: #34495e;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.players {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.player {
+    padding: 8px 0;
+    font-size: 1.2em;
+    color: #333;
+    position: relative;
+}
+
+.player::before {
+    content: '•';
+    color: #005035;
+    font-weight: bold;
+    position: absolute;
+    left: -15px;
+}
+.player-name:hover {
+    color: #2980b9;
+    cursor: pointer;
+}
+.socials {
+    color: #A49665
+}
+.player-name {
+    color: #A49665
+}
+
+#staffImage {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+
+#playerModal, #staffModal {
+    display: none;
+}
+
+.staff-name:hover {
+    color: #2980b9;
+    cursor: pointer;
+}
+.staff-name {
+    padding: 8px 0;
+    font-size: 1.2em;
+    position: relative;
+    color:#A49665
+}
+
+.staff-name::before {
+    content: '•';
+    color: #005035;
+    font-weight: bold;
+    position: absolute;
+    left: -15px;
+}
+.role {
+    padding: 8px 0;
+    font-size: 1.2em;
+    position: relative;
+    color:#A49665
+}
