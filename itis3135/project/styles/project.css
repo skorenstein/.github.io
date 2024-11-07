@@ -1,0 +1,119 @@
+body {
+    background-color: #005035;
+    color: #FFFFFF;
+    display:inline-flexbox;
+}
+
+h1 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+.logo {
+    width: 15%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:link {
+    color:#FFFFFF ;
+}
+a:visited {
+    color:black;
+}
+a:hover {
+    color: #A49665;
+}
+.main-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start; 
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    margin-top: 10px;
+}
+.game-logo {
+    max-width: 200px;
+    border-radius: 10px;
+}
+.game-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 200px; 
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+.game-card:hover {
+    transform: scale(1.05);
+}
+.main-games .game-card:first-child {
+    height: 260px; 
+}
+.main-team {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+.main-team h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFD700; 
+    background-color: #34495E; 
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.main-team ul {
+    list-style-type: none; 
+    padding-left: 20px;
+    margin: 0;
+    background-color: #005035; 
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.main-team ul li {
+    padding: 5px 0;
+    position: relative;
+}
+
+.main-team ul li::before {
+    content: '•'; 
+    color: #FFD700; 
+    font-weight: bold;
+    position: absolute;
+    left: -20px;
+}
+
+
+.main-team h2.overwatch { color: #FFA500; } 
+.main-team h2.fortnite { color: #1E90FF; } 
+.main-team h2.lol { color: #A52A2A; } 
+.main-team h2.valorant { color: #FF0000; } 
+.main-team h2.r6 { color: #808080; } 
+
+.main-team h2 {
+    margin-bottom: 10px;
+}
+
+.main-team ul {
+    margin-bottom: 20px;
+}
