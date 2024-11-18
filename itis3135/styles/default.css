@@ -38,16 +38,20 @@ nav {
     display: inline-block;
     overflow: hidden;
     vertical-align: middle;
+    margin: 0;
+    font-size: 14px;
+    
 }
   
 .dropdown .dropbtn {  
     background-color: inherit;
     border: none;
     font-family: inherit;
-    text-decoration: underline;
     margin: 0;
     vertical-align: middle;
     color: #1ABC9C;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .dropdown-content {
@@ -61,21 +65,23 @@ nav {
 }
   
 .dropdown-content a {
-    color: inherit;
-    display: block;
-    float: none;
-    padding: 12px 16px;
-    text-align: center;
-    text-decoration: none;
+    color: inherit !important;
+    display: block !important;
+    padding: 10px 12px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    margin-bottom: 8px !important;
 }
-  
+
+
 .dropdown-content a:hover {
-    background-color: #34495E;
-    color: white;
+    background-color: #34495E !important; 
+    color: white !important; 
 }
 
 
-.dropbtn:hover {
+
+.dropbtn :hover {
     color: #76D7C4;
 }
   
@@ -84,6 +90,27 @@ nav {
     display: block;
 }
 
+#menu-container {
+    display:inline-flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+#menu-container .menu-item {
+    color:#1ABC9C;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 2px;
+    font-size: 14px;
+}
+
+#menu-container .menu-item:hover{
+    color:#76D7C4;
+}
+#menu-container .menu-item:visited{
+    color:#16A085;
+}
 table, th, td {
     border: 1px solid black;
   

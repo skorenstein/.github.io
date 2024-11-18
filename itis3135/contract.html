@@ -8,7 +8,13 @@
         <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
     </head>
 <body>
-    <header><div data-include="components/header.html"></div></header>
+    <header>
+        <div id="menu-container"></div>
+        <div class="dropdown">
+            <button class="dropbtn"></button>
+            <h3 id="header-text"></h3>
+        </div>
+    </header>
     <main>
         <p>I, Stephen Korenstein  agree to abide by the terms of the course contract in my Fall 2024, ITIS3135,Web App Design and Development  with my instructor, Professor D.I. von Briesen. 
 
@@ -21,9 +27,13 @@
             Signed: Stephen J Korenstein , 16/09/2024 </p>
     </main>
     <footer>
-        <div data-include="components/footer.html"></div>
+        <div id="footer-container"></div>
         <script src="scripts/include.js"></script>
-    </footer>
+    </footer>    
+    
+    <script src="scripts/menu1.js"></script>
+    <script src="scripts/menu2.js"></script>
+    <script src="scripts/menu3.js"></script>
 </body>
 
 

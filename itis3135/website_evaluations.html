@@ -6,7 +6,13 @@
         <title>Stephen Korenstein's Sleek Koala  || ITIS3135 Home</title>
         <link rel="stylesheet" href="styles\default.css"> 
     </head>
-    <div data-include="components/header.html"></div>
+    <header>
+        <div id="menu-container"></div>
+            <div class="dropdown">
+                <button class="dropbtn"></button>
+                <h3 id="header-text"></h3>
+            </div>
+    </header>
     <body> 
         <main>
             <h2>Website Evaluations</h2>
@@ -31,8 +37,13 @@
                 </ul>
         
          </main>
-        <footer><div data-include="components/footer.html"></div>
+         <footer>
+            <div id="footer-container"></div>
             <script src="scripts/include.js"></script>
-        </footer>
+        </footer>    
+        
+        <script src="scripts/menu1.js"></script>
+        <script src="scripts/menu2.js"></script>
+        <script src="scripts/menu3.js"></script>
              
     </body>

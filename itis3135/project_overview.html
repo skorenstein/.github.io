@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charsert="UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Stephen Korenstein's Sleek Koala  || Project Overview</title>
         <link rel="stylesheet" href="styles\default.css"> 
@@ -11,7 +11,11 @@
     <body>
         <header>
             <h1>Charlotte Esports</h1>
-            <div data-include="components/header.html"></div>
+            <div id="menu-container"></div>
+            <div class="dropdown">
+                <button class="dropbtn"></button>
+                <h3 id="header-text"></h3>
+            </div>
             </header>
         <main>
             <h2>Project Overview</h2>
@@ -48,9 +52,13 @@
         </div>
         </main>
         <footer>
-            <div data-include="components/footer.html"></div>
+            <div id="footer-container"></div>
             <script src="scripts/include.js"></script>
         </footer>    
+        
+        <script src="scripts/menu1.js"></script>
+        <script src="scripts/menu2.js"></script>
+        <script src="scripts/menu3.js"></script>
     </body>
     
     </html>

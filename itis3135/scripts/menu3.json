@@ -1,0 +1,57 @@
+{
+    "footer": {
+      "nav": {
+        "links": [
+          {
+            "text": "Charlotte.edu",
+            "href": "https://webpages.charlotte.edu/skorenst/"
+          },
+          {
+            "text": "GitHub.com ~",
+            "href": "https://github.com/skorenstein"
+          },
+          {
+            "text": "GitHub.io ~",
+            "href": "https://skorenstein.github.io"
+          },
+          {
+            "text": "LinkedIn ~",
+            "href": "https://www.linkedin.com/in/stephen-korenstein-a4024014b/"
+          },
+          {
+            "text": "ITIS3135",
+            "href": "../index.html"
+          }
+        ],
+        "paragraph": {
+          "class": "built",
+          "text": "Page built by ",
+          "links": [
+            {
+              "text": "SK Enterprises ©",
+              "href": "skenterprise.us\\index.html"
+            },
+            {
+              "text": "Certified in JS",
+              "href": "https://www.freecodecamp.org/certification/skorenstein/javascript-algorithms-and-data-structures-v8"
+            }
+          ]
+        },
+        "images": [
+          {
+            "href": "https://validator.w3.org/check?uri=referer",
+            "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png",
+            "alt": "Valid HTML!",
+            "style": "border:0;width:88px;height:31px"
+          },
+          {
+            "href": "https://jigsaw.w3.org/css-validator/check/referer",
+            "src": "https://jigsaw.w3.org/css-validator/images/vcss",
+            "alt": "Valid CSS!",
+            "style": "border:0;width:88px;height:31px"
+          }
+        ]
+      }
+    }
+  }
+  
