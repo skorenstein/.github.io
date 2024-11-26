@@ -9,5 +9,8 @@
     {"name": "Activity 9", "url":"drawing.html"},
     {"name": "Activity 13", "url":"slideshow.html"},
     {"name": "Hobby", "url":"hobby/index.html"},
+    {"name": "Project", "url":"project/index.html"},
+    {"name": "Peer Review 1", "url":"review1.html"},
+    {"name": "Peer Review 2", "url":"review2.html"},
     {"headerText": "Your one-stop shop for any and all Overwatch coaching"}
 ]
