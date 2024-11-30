@@ -4,47 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charlotte Esports Games</title>
-    <link rel="stylesheet" href="styles\project.css">
+    <link rel="stylesheet" href="styles/project.css">
 </head>
 <body>
     <header>
         <h1>Current Varsity Titles</h1>
         <nav>
-            <a href="index.html">Home</a>
-            ||
-            <a href="games.html">Games</a>
-            ||
-            <a href="teams.html">Our Teams</a>
-            ||
-            <a href="players.html">Our Players</a>
-            ||
+            <a href="index.html">Home</a> || 
+            <a href="games.html">Games</a> || 
+            <a href="teams.html">Our Teams</a> || 
+            <a href="players.html">Our Players</a> || 
             <a href="staff.html">Our Staff</a>
         </nav>
     </header>
+
     <main class="main-games">
+        <div class="slides">
+            <div class="mySlides" data-caption="Overwatch 2">
+                <div class="slideTitle"></div>
+                <img src="images/owlogo.png" style="width: 100%;">
+            </div>
+            <div class="mySlides" data-caption="League of Legends">
+                <div class="slideTitle"></div>
+                <img src="images/lol-logo.png" style="width: 50%;">
+            </div>
+            <div class="mySlides" data-caption="Fortnite">
+                <div class="slideTitle"></div>
+                <img src="images/fortnite.png" style="width: 70%;">
+            </div>
+            <div class="mySlides" data-caption="Valorant">
+                <div class="slideTitle"></div>
+                <img src="images/vallogo.png" style="width: 70%;">
+            </div>
+            <div class="mySlides" data-caption="Rainbow 6 Siege">
+                <div class="slideTitle"></div>
+                <img src="images/r6logo.png" style="width: 70%;">
+            </div>
+        </div>
+        
+        <div class="arrow-container">
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+        </div>
+        
+        <div class="caption-container">
+            <p class="caption"></p>
+        </div>
+
+        <div class="caption-container">
+            <p class="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo" src="images/owlogo.png" style="width: 100%; padding-top: 11px;" onclick="currentSlide(1)" alt="Overwatch 2">
+            </div>
+            <div class="column">
+                <img class="demo" src="images/lol-logo.png" style="width: 90%;" onclick="currentSlide(2)" alt="League of Legends">
+            </div>
+        <div class="column">
+            <img class="demo" src="images/fortnite.png" style="width: 80%;" onclick="currentSlide(3)" alt="Fortnite">
+        </div>
+        <div class="column">
+            <img class="demo" src="images/vallogo.png" style="width: 80%;" onclick="currentSlide(4)" alt="Valorant">
+        </div>
+        <div class="column">
+            <img class="demo" src="images/r6logo.png" style="width: 50%;" onclick="currentSlide(5)" alt="R6">
+        </div>
+        </div>
+
+        
         <div class="game-card">
-        <h2 class="title">Overwatch 2</h2>
-        <a href="https://overwatch.blizzard.com/en-us/"><img src="images/owlogo.png" alt="Overwatch Logo" class="game-logo"></a>
+            <h2 class="title">Overwatch 2</h2>
+            <a href="https://overwatch.blizzard.com/en-us/"><img src="images/owlogo.png" alt="Overwatch Logo" class="game-logo"></a>
         </div>
         <div class="game-card">
-        <h2 class="title">Fortnite</h2>
-        <a href="https://www.fortnite.com/?lang=en-US"><img src="images/fortnite.png" alt="Fortnite Logo" class="game-logo"></a>
+            <h2 class="title">Fortnite</h2>
+            <a href="https://www.fortnite.com/?lang=en-US"><img src="images/fortnite.png" alt="Fortnite Logo" class="game-logo"></a>
         </div>
         <div class="game-card">
-        <h2 class="title">League Of Legends</h2>
-        <a href="https://www.leagueoflegends.com/en-us/"><img src="images/lol-logo.png" alt="League of Legends Logo" class="game-logo"></a>
+            <h2 class="title">League Of Legends</h2>
+            <a href="https://www.leagueoflegends.com/en-us/"><img src="images/lol-logo.png" alt="League of Legends Logo" class="game-logo"></a>
         </div>
         <div class="game-card">
             <h2 class="title">Valorant</h2>
-            <a href="https://playvalorant.com/en-us/"></a><img src="images/vallogo.png" alt="Valorant Logo" class="game-logo">
-            </div>
-        <div class="game-card">
-        <h2 class="title">Rainbow Six Siege</h2>
-        <a href="https://www.ubisoft.com/en-us/game/rainbow-six/siege"><img src="images/r6logo.png" alt="Rainbow Six Siege Logo" class="game-logo"></a>
+            <a href="https://playvalorant.com/en-us/"><img src="images/vallogo.png" alt="Valorant Logo" class="game-logo"></a>
         </div>
-        
+        <div class="game-card">
+            <h2 class="title">Rainbow Six Siege</h2>
+            <a href="https://www.ubisoft.com/en-us/game/rainbow-six/siege"><img src="images/r6logo.png" alt="Rainbow Six Siege Logo" class="game-logo"></a>
+        </div>
     </main>
-    <footer></footer>
-</body>
 
+    <footer>
+        <script src="scripts/project.js"></script>
+        <script src="scripts/slideshow.js"></script>
+    </footer>
+</body>
 </html>

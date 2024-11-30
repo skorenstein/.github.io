@@ -197,3 +197,87 @@ a:hover {
     position: relative;
     color:#A49665
 }
+
+
+.mySlides {
+    display: none;
+}
+
+.mySlides:first-child {
+    display: block;
+}
+
+.slides {
+    position: relative;
+    margin-bottom: 40px; /* Space for arrows */
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute; /* Fix the position of the arrows */
+    top: 50%; /* Vertically center the arrows */
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    user-select: none;
+    -webkit-user-select: none;
+    z-index: 10; /* Ensures the arrows are on top of images */
+}
+
+.prev {
+    left: 0; /* Aligns the "Previous" arrow to the left */
+    transform: translateY(-50%); /* Centers the "Previous" arrow vertically */
+}
+
+.next {
+    right: 0; /* Aligns the "Next" arrow to the right */
+    transform: translateY(-50%); /* Centers the "Next" arrow vertically */
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.caption-container {
+    text-align: center;
+    margin-top: 10px; /* Adds some space between image and caption */
+}
+
+.caption {
+    color: #f2f2f2;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px 12px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img {
+    display: inline;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+

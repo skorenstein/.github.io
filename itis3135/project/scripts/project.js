@@ -1,4 +1,4 @@
-
+// Modal code (Player and Staff modals)
 const modal = document.getElementById("playerModal");
 const modalName = document.getElementById("playerName");
 const modalBio = document.getElementById("playerBio");
@@ -15,8 +15,9 @@ closeBtn.onclick = function() {
 }
 
 window.onclick = function(event) {
-    if (event.target === modal) {
+    if (event.target === modal || event.target === staffModal) {
         modal.style.display = "none";
+        staffModal.style.display = "none";
     }
 }
 
@@ -34,7 +35,7 @@ document.querySelectorAll(".player a").forEach(link => {
     }
 });
 
-
+// Staff Modal Code
 const staffModal = document.getElementById("staffModal");
 const staffName = document.getElementById("staffName");
 const staffBio = document.getElementById("staffBio");
@@ -52,23 +53,11 @@ closeStaffBtn.onclick = function() {
     staffModal.style.display = "none";
 }
 
-window.onclick = function(event) {
-    if (event.target === staffModal) {
-        staffModal.style.display = "none";
-    }
-}
-
 document.querySelectorAll(".staff-name").forEach(staffNameElement => {
     staffNameElement.onclick = function() {
         const staffName = this.textContent;
         const staffBio = this.closest(".staff-member").getAttribute("data-bio");
         const staffImageSrc = this.closest(".staff-member").getAttribute("data-image") || "path/to/placeholder.jpg";
         openStaffModal(staffName, staffBio, staffImageSrc);
-    }
-});
-
-document.querySelectorAll(".staff-member a").forEach(link => {
-    link.onclick = function(event) {
-        event.stopPropagation();
     }
 });
