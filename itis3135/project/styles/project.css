@@ -222,7 +222,6 @@ a:hover {
     font-size: 20px;
     border-radius: 3px;
     user-select: none;
-    -webkit-user-select: none;
     z-index: 10; /* Ensures the arrows are on top of images */
 }
 
